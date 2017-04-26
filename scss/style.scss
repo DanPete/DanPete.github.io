@@ -6,6 +6,7 @@ $secondary-color: #6A85A3;
 // default was #2C3E50
 $hover-color: rgba(106, 133, 163, 0.8);
 // default was rgba(119, 136, 153, 0.9)
+$darker-secondary-color: #4f6277;
 
 /* Main */
 
@@ -669,11 +670,20 @@ footer{
   }
   .footer-below {
     padding: 25px 0;
-    background-color: #4b627a;
+    background-color: $darker-secondary-color;
   }
 }
 
 /* Buttons */
+
+.btn-custom {
+  background-color: $secondary-color;
+  color: white;
+  &:hover {
+    background-color: $darker-secondary-color;
+    color: white;
+  }
+}
 
 .btn-outline {
   color: white;

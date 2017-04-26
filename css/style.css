@@ -591,10 +591,19 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #4b627a;
+  background-color: #4f6277;
 }
 
 /* Buttons */
+.btn-custom {
+  background-color: #6A85A3;
+  color: white;
+}
+.btn-custom:hover {
+  background-color: #4f6277;
+  color: white;
+}
+
 .btn-outline {
   color: white;
   font-size: 20px;
