@@ -697,10 +697,11 @@ footer{
   background-color: $secondary-color;
   color: white;
   &:hover,
-  &:focus {
+  &:focus,
+  &:active, {
     background-color: $darker-secondary-color;
     color: white;
-    outline: none;
+    outline: none !important;
   }
 }
 

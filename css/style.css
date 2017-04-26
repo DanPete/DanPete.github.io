@@ -492,10 +492,10 @@ footer {
 .btn-custom {
   background-color: #6A85A3;
   color: white; }
-  .btn-custom:hover, .btn-custom:focus {
+  .btn-custom:hover, .btn-custom:focus, .btn-custom:active {
     background-color: #4f6277;
     color: white;
-    outline: none; }
+    outline: none !important; }
 
 .btn-outline {
   color: white;
