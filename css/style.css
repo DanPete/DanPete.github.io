@@ -221,6 +221,9 @@ section {
   text-align: center;
   padding: 10px 22px;
   height: 5.5em; }
+  @media (max-width: 600px) {
+    .polaroid-container {
+      height: 8.5em; } }
 
 .polaroid p1 {
   color: #0F0807;
@@ -232,7 +235,7 @@ section {
 
 /* Portfolio Items */
 #portfolio {
-  background-image: url("http://i.imgur.com/2xE3OBZ.jpg");
+  background-image: url("../img/background/woodbackground.jpeg");
   background-repeat: no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -421,7 +424,7 @@ textarea:valid {
   right: 25px;
   cursor: pointer;
   z-index: 1; }
-  @media (max-width: 600px) {
+  @media (max-width: 767px) {
     .portfolio-modal .close-modal {
       display: none; } }
   .portfolio-modal .close-modal:hover {
