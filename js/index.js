@@ -19,7 +19,7 @@
     // });
 
     // Closes the Responsive Menu on Menu Item Click
-    $('.navbar-collapse ul li a').click(function(){ 
+    $('.navbar-collapse ul li a').click(function(){
             $('.navbar-toggle:visible').click();
     });
 
@@ -88,19 +88,19 @@ $('#modal6').click(function(){
 });
 
 $('#modal2').click(function(){
-  
+
 });
 
 $(document).on('keyup',function(evt) {
   if (evt.keyCode == 27) {
     $('#portfolioModal1').modal('hide');
-  }   
+  }
 });
 
 $(document).on('keyup',function(evt) {
   if (evt.keyCode == 27) {
     $('#portfolioModal2').modal('hide');
-  }   
+  }
 });
 
 
@@ -109,5 +109,9 @@ $(document).on('keyup',function(evt) {
 
 // Unfocus social button
 $(".btn-social").mouseup(function(){
+    $(this).blur();
+})
+
+$(".navbar-toggle").mouseup(function(){
     $(this).blur();
 })

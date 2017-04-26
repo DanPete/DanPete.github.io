@@ -2,7 +2,7 @@
 
 $main-color: #3D3B3E;
 // defaut was #18BC9C
-$secondary-color: #6A85A3; 
+$secondary-color: #6A85A3;
 // default was #2C3E50
 $hover-color: rgba(106, 133, 163, 0.8);
 // default was rgba(119, 136, 153, 0.9)
@@ -150,7 +150,7 @@ background-position: 0 40px;
       font-weight: 300;
     }
     .name{
-      font-size: 4.75em; 
+      font-size: 4.75em;
     }
   }
 }
@@ -166,7 +166,6 @@ background-position: 0 40px;
 
 
 .navbar-custom {
-  
   width: 100%;
   background: $secondary-color;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -183,7 +182,7 @@ background-position: 0 40px;
      padding: 13px 0; //TODO ---- Find out why this is big??
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
-    transition: padding 0.3s; 
+    transition: padding 0.3s;
   }
   .navbar-brand {
     color: white;
@@ -234,6 +233,11 @@ background-position: 0 40px;
   }
 }
 
+.collapsed {
+  background-color: #6A85A3 !important;
+  border-color: white !important;
+}
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
   border-top: none;
@@ -241,6 +245,7 @@ background-position: 0 40px;
   // border-color: transparent;
   border-color: $main-color;
 }
+
 
 /* Sections */
 
@@ -285,8 +290,8 @@ section {
     color: $secondary-color;
   }
   .img-custom {
-    
-    
+
+
   //     border: 12px solid #fffaf0;
   // border-bottom: 90px solid #fffaf0;
   // -webkit-box-shadow: 3px 3px 3px #888;
@@ -336,16 +341,7 @@ section {
 //   flex-wrap: wrap;
 // }
 
-.live-demo {
-    font-size: 1.4em;
-    a{
-      color: $secondary-color;
-      text-decoration: none;
-      &:hover {
-        color: $main-color;
-      }
-    }
-  }
+
 
 #portfolio {
   background-image: url("http://i.imgur.com/2xE3OBZ.jpg");
@@ -361,7 +357,7 @@ background-position:center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   .img-thumbnail {
-    background-color: #defcfc; 
+    background-color: #defcfc;
     // TODO change...?
     border-color: #d7f2f2;
   }
@@ -475,6 +471,9 @@ textarea {
   text-align: center;
   font-size: 4.5em !important;
   max-height: 127px;
+  @media (max-width: 500px) {
+    font-size: 3.2em !important;
+  }
 }
 
 textarea:focus,
@@ -526,7 +525,7 @@ textarea:valid {
     line-height: 1.764705882em;
     vertical-align: middle;
     vertical-align: baseline;
-    opacity: 0;    
+    opacity: 0;
     -webkit-transition: top 0.6s ease,opacity 0.6s ease;
     -moz-transition: top 0.6s ease,opacity 0.6s ease;
     -ms-transition: top 0.6s ease,opacity 0.6s ease;
@@ -606,6 +605,9 @@ textarea:valid {
     right: 25px;
     cursor: pointer;
     z-index: 1;
+    @media (max-width: 600px) {
+      display: none;
+    }
     &:hover {
       opacity: 0.3;
     }
@@ -639,6 +641,16 @@ textarea:valid {
   }
 }
 
+.live-demo {
+    font-size: 1.4em;
+    a{
+      color: $secondary-color;
+      text-decoration: none;
+      &:hover {
+        color: $main-color;
+      }
+    }
+  }
 
 /* Footer */
 
@@ -679,9 +691,11 @@ footer{
 .btn-custom {
   background-color: $secondary-color;
   color: white;
-  &:hover {
+  &:hover,
+  &:focus {
     background-color: $darker-secondary-color;
     color: white;
+    outline: none;
   }
 }
 
