@@ -121,10 +121,10 @@ hr.star-primary {
 header {
   background-image: url("http://i.imgur.com/vcRwnld.jpg");
 background-repeat:no-repeat;
--webkit-background-size:contain;
--moz-background-size:contain;
--o-background-size:contain;
-background-size:contain;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
 width: 100%;
 background-position: 0 40px;
   background-attachment: fixed;
@@ -348,14 +348,14 @@ section {
 
 
 #portfolio {
-  background-image: url("../img/background/woodbackgroundsmall.jpeg");
+  background-image: url("../img/background/woodbackground2.jpeg");
   background-repeat:no-repeat 0 0 fixed;
--webkit-background-size:contain;
--moz-background-size: contain;
--o-background-size: contain;
-background-size: contain;
+-webkit-background-size:cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 width: 100%;
-background-position:center;
+// background-position:center;
   background-attachment: fixed;
   // background: $main-color;
   img {

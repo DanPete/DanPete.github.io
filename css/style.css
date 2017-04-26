@@ -236,14 +236,13 @@ section {
 
 /* Portfolio Items */
 #portfolio {
-  background-image: url("../img/background/woodbackground.jpeg");
+  background-image: url("../img/background/woodbackground2.jpeg");
   background-repeat: no-repeat 0 0 fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   width: 100%;
-  background-position: center;
   background-attachment: fixed; }
   #portfolio img {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
