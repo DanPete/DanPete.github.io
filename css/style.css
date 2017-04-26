@@ -88,6 +88,7 @@ header {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
   background-position: 0 40px;
   background-attachment: fixed;
   text-align: center;
@@ -221,7 +222,7 @@ section {
   text-align: center;
   padding: 10px 22px;
   height: 5.5em; }
-  @media (max-width: 600px) {
+  @media (max-width: 400px) {
     .polaroid-container {
       height: 8.5em; } }
 
@@ -236,11 +237,12 @@ section {
 /* Portfolio Items */
 #portfolio {
   background-image: url("../img/background/woodbackground.jpeg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat 0 0 fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
   background-position: center;
   background-attachment: fixed; }
   #portfolio img {
