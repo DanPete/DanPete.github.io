@@ -286,6 +286,9 @@ section {
   p {
     text-align: justify;
     margin: 10px;
+    @media(max-width: 767px) {
+      text-align: left;
+    }
   }
   h2 {
     color: $secondary-color;
@@ -312,12 +315,18 @@ section {
   border-color: #FEFEFD;
   background-color: #FEFEFD;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  @media (max-width: 767px) {
+    margin: 2.2em 0;
+  }
 }
 
 .polaroid-container {
   text-align: center;
   padding: 10px 22px;
   height: 5.5em;
+  @media (max-width: 767px) {
+    height: 6em;
+  }
   @media (max-width: 400px) {
     height: 8.5em;
   }
@@ -361,6 +370,8 @@ background-attachment: fixed;
   background-size: contain;
   background-attachment: fixed;
 }
+
+
 // background-position:center;
 
   // background: $main-color;
@@ -572,6 +583,10 @@ textarea:valid {
 
 /* Modals */
 
+#modal1gif {
+  background-image: url(https://placeimg.com/960/540/any);
+}
+
 .modal-open {
   padding-right: 0 !important;
   overflow: hidden;
@@ -596,6 +611,9 @@ textarea:valid {
     }
     p {
       text-align: justify;
+      @media(max-width: 767px) {
+        text-align: left;
+      }
     }
     img{
       -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
