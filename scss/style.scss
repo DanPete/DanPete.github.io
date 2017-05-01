@@ -355,6 +355,10 @@ section {
 -o-background-size: cover;
 background-size: cover;
 width: 100%;
+@media (max-width: 767px ) {
+  background-repeat: repeat-y;
+  background-size: contain;
+}
 // background-position:center;
   background-attachment: fixed;
   // background: $main-color;
