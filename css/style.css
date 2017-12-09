@@ -202,10 +202,10 @@ section {
     height: 17em; } }
 @media (min-width: 1600px) {
   #about .p-wrapper {
-    height: 15em; } }
+    height: 16em; } }
 @media (min-width: 1800px) {
   #about .p-wrapper {
-    height: 14em; } }
+    height: 15em; } }
 #about p {
   text-align: justify;
   margin: 10px; }
