@@ -215,6 +215,8 @@ section {
 #about h2 {
   color: #6A85A3; }
 
+
+
 .polaroid {
   max-width: 555px;
   display: block;
@@ -245,6 +247,12 @@ section {
   padding-bottom: 2em;
   text-align: center;
   width: 100%; }
+
+  .polaroid img {
+  height: 290px;
+  width: 515px;
+  object-fit: cover;
+  }
 
 /* Portfolio Items */
 #portfolio {
