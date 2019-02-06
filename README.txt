@@ -1,3 +1,2 @@
-A Pen created at CodePen.io. You can find this one at http://codepen.io/DanPete/pen/OmMEMz.
-
+This is my portfolio website's HTML and CSS. To view live website go to DanPete.github.io
  
