@@ -194,7 +194,7 @@ section {
     background: #3D3B3E;
     color: white; }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   #about .p-wrapper {
     height: 18em; } }
 @media (min-width: 1400px) {
@@ -205,10 +205,10 @@ section {
     height: 16em; } }
 @media (min-width: 1800px) {
   #about .p-wrapper {
-    height: 15em; } }
+    height: 15em; } } */
 #about p {
   text-align: justify;
-  margin: 10px; }
+  margin: 40px 10px; }
   @media (max-width: 767px) {
     #about p {
       text-align: left; } }
@@ -626,7 +626,7 @@ fieldset[disabled] .btn-success.active {
   border-radius: 100%;
   text-align: center;
   font-size: 30px;
-  line-height: 45px; }
+  line-height: 50px; }
 
 /* Scroll */
 .scroll-top {
